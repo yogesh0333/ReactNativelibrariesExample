@@ -1,13 +1,8 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-import ReactNativeNavigation from './ReactNativeNavigation';
-
+import MainAppNavigator from './MainAppNavigator';
 export default function App() {
-  return (
-    <View style={{flex: 1}}>
-      <ReactNativeNavigation />
-    </View>
-  );
+  return <MainAppNavigator />;
 }
 
 const styles = StyleSheet.create({});
