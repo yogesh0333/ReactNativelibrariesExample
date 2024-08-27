@@ -1,11 +1,11 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-import ReactNativeNavigation from './ReactNativeNavigation';
+import NavigationExample from './App';
 
 export default function App() {
   return (
     <View style={{flex: 1}}>
-      <ReactNativeNavigation />
+      <NavigationExample />
     </View>
   );
 }
